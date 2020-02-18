@@ -1,0 +1,51 @@
+video {
+    width: 640px;
+    height: 480px;
+}
+
+button {
+    width: 100px;
+    border: 1px solid gray;
+    margin: 20px;
+}
+
+footer {
+    clear: both;
+}
+
+#download {
+    text-decoration: none;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    position: relative;
+}
+
+footer {
+    text-align: center;
+}
+
+.none {
+    display: none;
+}
+
+.state {
+    margin: 2px;
+    color: #d93025;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.red-dot {
+    width: 9px;
+    padding: 1px;
+    border-radius: 50%;
+    border:1px solid #d93025;
+}

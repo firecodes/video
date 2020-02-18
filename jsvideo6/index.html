@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网页录制视频Demo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<main class="flex">
+    <div class="box">
+        <video class="stream"></video>
+        <video controls class="play none"></video>
+        <span class="state none"><img class="red-dot" src="red-dot.png" alt="红点"> 录制 </span>
+    </div>
+</main>
+<footer>
+    <button class="start">开始录像</button>
+    <button class="reset none">重新录制</button>
+    <button class="end none">停止录像</button>
+    <button class="download none">
+        <a class="download" href="#" download="视频文件">下载视频</a>
+    </button>
+</footer>
+
+<script src="./jquery-3.2.1.min.js"></script>
+
+<script type="application/javascript" src="./script.js"></script>
+
+
+</body>
+
+</html>
